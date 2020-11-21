@@ -2,8 +2,8 @@ a, p, button {
   font-family: 'Roboto';
 }
 
-div, h1 {
-  font-family: 'pt_serifregular';
+h1 {
+  font: normal 50px/66px pt_serifregular, arial, helvetica, sans-serif;
 }
 
 body {
