@@ -32,7 +32,7 @@ body {
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 50%;
   opacity: .7;
 }
@@ -40,7 +40,7 @@ body {
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
   border-radius: 50%;
   opacity: .7;
 }
