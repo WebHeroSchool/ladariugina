@@ -16,6 +16,7 @@ body {
 }
 
 .logo {
+<<<<<<< HEAD
 	padding: 40px 0;
 	font-family: pt_serifregular, arial, helvetica, sans-serif;
 	font-weight: bold;
@@ -39,4 +40,27 @@ body {
 
 .menu__item:last-child {
 	padding-right: 0;
+=======
+  padding: 40px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+>>>>>>> 208a0e846e97c79d08c585867ee3172fe030e285
 }
