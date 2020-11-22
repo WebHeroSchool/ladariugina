@@ -78,25 +78,8 @@ body {
   left: 0;
 }
 
-.menu__item::after {
-  position: absolute;
-  display: block;
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #0056ec;
-  left: 0;
-  opacity: 0;
-  transition: opacity .5s, width .5s;
-}
-
 .menu__item:hover {
   opacity: .5;
-}
-
-.menu__item_active::after {
-  opacity: 1;
-  width: 100%;
 }
 
 .menu__item:hover::after {
