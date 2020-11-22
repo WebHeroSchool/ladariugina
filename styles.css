@@ -1,6 +1,6 @@
 p, button {
   font-family: 'Roboto';
-} 
+}
 
 h1 {
   font: normal 50px/66px pt_serifregular, arial, helvetica, sans-serif;
@@ -76,9 +76,9 @@ body {
   height: 3px;
   background: #0056ec;
   left: 0;
- }
- 
- .menu__item:after {
+}
+
+ .menu__item::after {
   position: absolute;
   display: block;
   content: '';
@@ -88,17 +88,17 @@ body {
   left: 0;
   opacity: 0;
   transition: opacity .5s, width .5s;
- }
-
-.menu__item:hover {
-  opacity: 0.5;
 }
 
-.menu__item:hover:after, .menu__item_active:after {
+.menu__item:hover {
+  opacity: .5;
+}
+
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
- }
- 
+}
+
 .menu__item:hover::after {
   position: absolute;
   left: 0;
