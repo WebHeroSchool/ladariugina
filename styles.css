@@ -75,7 +75,7 @@ body {
   left: 0;
 }
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   left: 0;
   display: block;
@@ -124,10 +124,6 @@ body {
 
 .main__title-text_highlight {
   background: #ecf3ff;
-}
-
-.main__button {
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
