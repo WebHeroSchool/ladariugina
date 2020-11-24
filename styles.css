@@ -92,7 +92,7 @@ body {
   opacity: .5;
 }
 
-.menu__item:hover::after, 
+.menu__item:hover::after,
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
@@ -151,6 +151,7 @@ body {
   .logo {
     padding-top: 0;
   }
+
   .logo__text {
     display: none;
   }
@@ -172,7 +173,7 @@ body {
     font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
-  .main__subtitle{
+  .main__subtitle {
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
