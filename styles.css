@@ -8,7 +8,8 @@ body {
 
 .wrapper {
   margin: auto;
-  width: 90.9%;
+  width: 91%;
+  max-width: 1510px;
 }
 
 .logo {
@@ -143,7 +144,7 @@ body {
   opacity: .5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .menu {
     display: none;
   }
@@ -180,5 +181,46 @@ body {
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .wrapper {
+    margin: auto;
+    width: 91%;
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header {
+    margin-bottom: 127px;
+  }
+
+  .menu__item {
+    position: relative;
+    margin-right: 26px;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    transition: opacity .5s;
+  }
+
+  .main {
+    padding: 76px 55% 100px 0;
+    background-size: 44%; 
+  }
+
+  .main__title {
+    font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  
+  .main__subtitle {
+    max-width: 455px;
+    font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 }
