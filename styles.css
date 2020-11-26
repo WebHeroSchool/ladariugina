@@ -149,13 +149,25 @@ body {
 }
 
 @media (max-width: 800px) {
+  .menu {
+    display: none;
+    padding-top: 165px;
+  } 
+
   .menu__item {
     display: block;
-    position: absolute;
+    margin-bottom: 24px;
+    margin-right: 0px;
     font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
   }
 
+  .menu__item_active::after {
+    background: #fff;
+  }
+
   .logo {
+    position: absolute;
+    left: 7%;
     padding-top: 0;
   }
 
@@ -164,6 +176,7 @@ body {
   }
 
   .header {
+    justify-content: center;
     margin-bottom: 28px;
     margin-top: 24px;
   }
@@ -200,7 +213,7 @@ body {
     cursor: pointer;
     z-index: 1;
   }
-  
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -219,12 +232,6 @@ body {
   .menu__btn > span::after {
     content: '';
     top: 8px;
-  }
-
-  .menu {
-    display: none;
-    width: 100%;
-    height: 100%;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
