@@ -228,7 +228,7 @@ body {
     content: '';
     top: -8px;
   }
-  
+
   .menu__btn > span::after {
     content: '';
     top: 8px;
