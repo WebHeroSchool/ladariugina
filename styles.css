@@ -152,12 +152,12 @@ body {
   .menu {
     display: none;
     padding-top: 165px;
-  } 
+  }
 
   .menu__item {
     display: block;
     margin-bottom: 24px;
-    margin-right: 0px;
+    margin-right: 0;
     font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -223,7 +223,7 @@ body {
     height: 3px;
     background-color: #0056ec;
   }
-  
+
   .menu__btn > span::before {
     content: '';
     top: -8px;
