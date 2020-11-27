@@ -151,7 +151,7 @@ body {
 @media (max-width: 800px) {
   .menu {
     display: none;
-    padding: 135px 100px;
+    padding: 135px 130px 220px;
     margin-top: 30px;
     flex-direction: column;
     position: absolute;
@@ -237,18 +237,24 @@ body {
     top: 8px;
   }
 
+  .menu__btn > span:hover,
+  .menu__btn > span:hover::before,
+  .menu__btn > span:hover::after {
+    opacity: .5;
+  }
+
   #menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
+    background-color: transparent;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
-    transform: rotate(0);
+    transform: rotate(45deg);
   }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
-    transform: rotate(90deg);
+    transform: rotate(-45deg);
   }
 
   #menu__toggle:checked ~ .menu {
