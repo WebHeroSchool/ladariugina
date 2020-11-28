@@ -2,31 +2,37 @@
 <html>
 <head>
      <meta charset="utf-8">
+     <title>Мой первый сайт</title>
+     <link rel="stylesheet" href="fonts.css">
      <link rel="stylesheet" href="styles.css">
-     <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap"
-      <title>Мой первый сайт</title>
-</head>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" >
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 <body>
-    <header>
-      <div>app.creation</div>
-      <nav>
-        <a href="https://www.google.ru/">start</a>
-        <a href="https://www.google.ru/">services</a>
-        <a href="https://www.google.ru/">about</a>
-        <a href="https://www.google.ru/">blog</a>
-        <a href="https://www.google.ru/">contact us</a>
+  <div class="wrapper">
+    <header class="header">
+      <input id="menu__toggle" type="checkbox"/>
+      <div class="logo">
+        <div class="logo__circle logo__circle_color_dark-blue"></div>
+        <div class="logo__circle logo__circle_color_blue"></div>
+        <span class="logo__text">app.creation</span>
+      </div>
+      <label class="menu__btn" for="menu__toggle">
+          <span></span>
+      </label>
+      <nav class="menu">
+        <a class="menu__item" href="https://www.google.ru/">start</a>
+        <a class="menu__item menu__item_active" href="https://www.google.ru/">services</a>
+        <a class="menu__item" href="https://www.google.ru/">about</a>
+        <a class="menu__item" href="https://www.google.ru/">blog</a>
+        <a class="menu__item" href="https://www.google.ru/">contact&nbsp;us</a>
       </nav>
     </header>
-    <section>
-      <main>
-        <h1>Building an App Without Design Expertise?</h1>
-        <p>I help tech startups design better digital products without hiring a full-time designer</p>
-        <button>Schedule free consultation</button>
-      </main>
-      <div>
-        <img src="" alt="">
-      </div>
+    <section class="main">
+      <h1 class="main__title">Building&nbsp;an&nbsp;App<br><span class="main__title-text_highlight">Without&nbsp;Design<br>Expertise?</span></h1>
+      <p class="main__subtitle">I help tech startups designn better digital<br>products without hiring a full-time designer</p>
+      <a class="main__button" href="https://www.google.ru/">Schedule free consultation</a>
     </section>
+  </div>
 </body>
 </html>
